@@ -2,12 +2,14 @@ package First.program;
 
 public class HelloWorld {
 
-	public static void main(String[] args) {
+	public static void main(String[]args){
 		
 		System.out.println("Hello World");//welcome
-		System.out.println("hi");
-
+		//System.out.println("hi");
+	
+		}
+		
 
 	}
 
-}
+
