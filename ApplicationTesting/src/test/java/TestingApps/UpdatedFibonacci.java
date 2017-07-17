@@ -1,8 +1,10 @@
 package TestingApps;
 
-public class UpdatedFibonacci {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class UpdatedFibonacci {
+@Test
+	public void sub() {
 		 int a,b,c;
 		 a=1;
 		 b=1;
