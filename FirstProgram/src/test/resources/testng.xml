@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="TestingApps.UpdatedFibonacci"/>
+      <class name="Login.OpenBrowser"/>
+      <class name="Login.CheckingFb"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
