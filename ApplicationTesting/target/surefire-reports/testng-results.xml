@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3741" started-at="2017-07-14T23:04:04Z" finished-at="2017-07-14T23:04:08Z">
+  <suite name="Suite" duration-ms="4790" started-at="2017-07-17T21:04:09Z" finished-at="2017-07-17T21:04:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3741" started-at="2017-07-14T23:04:04Z" finished-at="2017-07-14T23:04:08Z">
+    <test name="Test" duration-ms="4790" started-at="2017-07-17T21:04:09Z" finished-at="2017-07-17T21:04:14Z">
       <class name="TestingApps.Test1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestingApps.Test1@6bdf28bb]" name="setup" is-config="true" duration-ms="16" started-at="2017-07-14T19:04:04Z" finished-at="2017-07-14T19:04:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestingApps.Test1@6bdf28bb]" name="setup" is-config="true" duration-ms="16" started-at="2017-07-17T17:04:09Z" finished-at="2017-07-17T17:04:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestingApps.Test1@6bdf28bb]" name="openBrowser" duration-ms="3724" started-at="2017-07-14T19:04:04Z" finished-at="2017-07-14T19:04:08Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestingApps.Test1@6bdf28bb]" name="openBrowser" duration-ms="4756" started-at="2017-07-17T17:04:10Z" finished-at="2017-07-17T17:04:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
