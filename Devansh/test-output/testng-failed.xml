@@ -6,7 +6,7 @@
     <classes>
       <class name="First.program.Sample2">
         <methods>
-          <include name="FbApp"/>
+          <include name="fbApp"/>
         </methods>
       </class> <!-- First.program.Sample2 -->
     </classes>
@@ -16,7 +16,7 @@
     <classes>
       <class name="First.program.Sample2">
         <methods>
-          <include name="FbApp"/>
+          <include name="fbApp"/>
         </methods>
       </class> <!-- First.program.Sample2 -->
     </classes>

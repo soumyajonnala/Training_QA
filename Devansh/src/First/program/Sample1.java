@@ -14,7 +14,7 @@ public class Sample1 {
 	
 	
 	@Test
-	public void FbApp() throws MalformedURLException, InterruptedException{
+	public void fbApp() throws MalformedURLException, InterruptedException{
 		
 		DesiredCapabilities cap=DesiredCapabilities.chrome();
 		cap.setBrowserName("chrome");

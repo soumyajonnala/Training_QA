@@ -9,14 +9,14 @@
   </test> <!-- Test -->
   
   <test name="Test_chrome">
-  <parameter name="broswer" value="chrome"></parameter>
+  <parameter name="browser" value="chrome"></parameter>
   <classes>
   <class name="First.program.Sample2"/>
   </classes>
   </test>
   
   <test name="Test_firefox">
-  <parameter name="broswer" value="firefox"></parameter>
+  <parameter name="browser" value="firefox"></parameter>
   <classes>
   <class name="First.program.Sample2"/>
   </classes>

@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class Sample2 {
 	@Parameters("browser")
 	@Test
-	public void FbApp(String browser) throws MalformedURLException, InterruptedException{
+	public void fbApp(String browser) throws MalformedURLException, InterruptedException{
 		System.out.println(browser);
 		
 		DesiredCapabilities cap=null;
