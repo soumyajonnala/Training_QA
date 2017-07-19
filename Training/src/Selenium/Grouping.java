@@ -1,10 +1,11 @@
 package Selenium;
 
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class Grouping {
 	
-
+@BeforeSuite
 	@Test(priority=1,groups={"high","low"})
 	public void one(){
 		System.out.println("this is test one");

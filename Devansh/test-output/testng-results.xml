@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8769" started-at="2017-07-19T00:43:02Z" finished-at="2017-07-19T00:43:11Z">
+    <groups>
+    </groups>
+    <test name="Test_chrome" duration-ms="15" started-at="2017-07-19T00:43:02Z" finished-at="2017-07-19T00:43:02Z">
+      <class name="First.program.Sample2">
+        <test-method status="FAIL" signature="FbApp(java.lang.String)[pri:0, instance:First.program.Sample2@735b5592]" name="FbApp" duration-ms="0" started-at="2017-07-18T20:43:02Z" finished-at="2017-07-18T20:43:02Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Test on method FbApp but has not been marked @Optional or defined
+in C:\Soumya\Project_QA\git\Devansh\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Test on method FbApp but has not been marked @Optional or defined
+in C:\Soumya\Project_QA\git\Devansh\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:569)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FbApp -->
+      </class> <!-- First.program.Sample2 -->
+    </test> <!-- Test_chrome -->
+    <test name="Test_firefox" duration-ms="0" started-at="2017-07-19T00:43:02Z" finished-at="2017-07-19T00:43:02Z">
+      <class name="First.program.Sample2">
+        <test-method status="FAIL" signature="FbApp(java.lang.String)[pri:0, instance:First.program.Sample2@548a9f61]" name="FbApp" duration-ms="0" started-at="2017-07-18T20:43:02Z" finished-at="2017-07-18T20:43:02Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Test on method FbApp but has not been marked @Optional or defined
+in C:\Soumya\Project_QA\git\Devansh\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Test on method FbApp but has not been marked @Optional or defined
+in C:\Soumya\Project_QA\git\Devansh\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:569)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FbApp -->
+      </class> <!-- First.program.Sample2 -->
+    </test> <!-- Test_firefox -->
+    <test name="Test" duration-ms="8769" started-at="2017-07-19T00:43:02Z" finished-at="2017-07-19T00:43:11Z">
+      <class name="First.program.Sample1">
+        <test-method status="PASS" signature="FbApp()[pri:0, instance:First.program.Sample1@174d20a]" name="FbApp" duration-ms="8754" started-at="2017-07-18T20:43:02Z" finished-at="2017-07-18T20:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FbApp -->
+      </class> <!-- First.program.Sample1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

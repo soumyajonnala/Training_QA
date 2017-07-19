@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3854" started-at="2017-07-13T22:28:49Z" finished-at="2017-07-13T22:28:53Z">
+  <suite name="Suite" duration-ms="54" started-at="2017-07-18T01:57:14Z" finished-at="2017-07-18T01:57:14Z">
     <groups>
+      <group name="high">
+        <method signature="Grouping.one()[pri:1, instance:Selenium.Grouping@48eff760]" name="one" class="Selenium.Grouping"/>
+        <method signature="Grouping.two()[pri:2, instance:Selenium.Grouping@48eff760]" name="two" class="Selenium.Grouping"/>
+        <method signature="Hai.Two()[pri:5, instance:Selenium.Hai@4de8b406]" name="Two" class="Selenium.Hai"/>
+      </group> <!-- high -->
+      <group name="low">
+        <method signature="Grouping.one()[pri:1, instance:Selenium.Grouping@48eff760]" name="one" class="Selenium.Grouping"/>
+        <method signature="Grouping.three()[pri:3, instance:Selenium.Grouping@48eff760]" name="three" class="Selenium.Grouping"/>
+      </group> <!-- low -->
     </groups>
-    <test name="Default test" duration-ms="3854" started-at="2017-07-13T22:28:49Z" finished-at="2017-07-13T22:28:53Z">
-      <class name="Selenium.TestNG">
-        <test-method status="PASS" signature="closeBrowser()[pri:6, instance:Selenium.TestNG@5056dfcb]" name="closeBrowser" duration-ms="3835" started-at="2017-07-13T18:28:49Z" finished-at="2017-07-13T18:28:53Z">
+    <test name="Test" duration-ms="54" started-at="2017-07-18T01:57:14Z" finished-at="2017-07-18T01:57:14Z">
+      <class name="Selenium.Grouping">
+        <test-method status="PASS" signature="one()[pri:1, instance:Selenium.Grouping@48eff760]" name="one" duration-ms="16" started-at="2017-07-17T21:57:14Z" finished-at="2017-07-17T21:57:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Selenium.TestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="two()[pri:2, instance:Selenium.Grouping@48eff760]" name="two" duration-ms="3" started-at="2017-07-17T21:57:14Z" finished-at="2017-07-17T21:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method status="PASS" signature="three()[pri:3, instance:Selenium.Grouping@48eff760]" name="three" duration-ms="0" started-at="2017-07-17T21:57:14Z" finished-at="2017-07-17T21:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+      </class> <!-- Selenium.Grouping -->
+      <class name="Selenium.Hai">
+        <test-method status="PASS" signature="Two()[pri:5, instance:Selenium.Hai@4de8b406]" name="Two" duration-ms="0" started-at="2017-07-17T21:57:14Z" finished-at="2017-07-17T21:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Two -->
+      </class> <!-- Selenium.Hai -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
